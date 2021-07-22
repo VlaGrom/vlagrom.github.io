@@ -67,6 +67,12 @@
 	box-shadow: 0 14px 28px #00000020, 0 5px 10px #00000030;
   position: relative;
   top: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .top-btn:active {
 	transition: all 0.2s;
