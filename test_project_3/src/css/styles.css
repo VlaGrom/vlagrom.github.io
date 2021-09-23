@@ -562,10 +562,14 @@ p4 {
 .block4 .name {
   transform: translateX(50%) translateY(50%);
   margin: -8px 30px 0 45px;
+  border: solid 5px #FCFCFC;
+  background-color: #FCFCFC;
 }
 .block4 .phone {
   transform: translateX(50%) translateY(50%);
   margin: -8px 70px 0 -9px;
+  border: solid 5px #FCFCFC;
+  background-color: #FCFCFC;
 }
 .block4 button {
   width: 255px;
