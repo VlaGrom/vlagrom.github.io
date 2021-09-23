@@ -419,8 +419,114 @@
     </div>
   </div>
 
+  <div class="block7">
+    <div class="container">
+      <div class="row">
+        <h2>Мы развеем все опасения</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-12 problems">
+          <h4>Какие могут быть проблемы:</h4>
+          <ul>
+            <li><cross>×</cross>      <p>Стены и углы будут неровными</p></li>
+            <li><cross>×</cross>      <p>Ремонт затянется на долгие месяцы</p></li>
+            <li><cross>×</cross>      <p>Сложности с доставкой и разгрузкой материалов</p></li>
+            <li><cross>×</cross>      <p>Останется мусор и пыль после работ</p></li>
+          </ul>
+        </div>
+        <div class="col-lg-5 col-12 offset-lg-2 solution">
+          <h4>Наше решение:</h4>
+          <ul>
+            <li><check>✓</check>      <p>Высокая квалификация специалистов + минимум 5 летний опыт работы = идеально ровные поверхности</p></li>
+            <li><check>✓</check>      <p>Соблюдаем сроки, которые прописаны в договоре. На квартиру площадью 135 м2 уходит от 3 до 5 дней</p></li>
+            <li><check>✓</check>      <p>Доставка материала и подъём бесплатно</p></li>
+            <li><check>✓</check>      <p>Убираем и вывозим мусор после работ</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="woman">
+        <img src="img/7img.png" alt="">
+      </div>
+    </div>
+  </div>
 
+  <div class="block8">
+    <div class="container">
+      <h2>Материалы</h2>
+      <h6>Мы работаем только качественными, проверенными временем материалами, следующих производителей:</h6>
+      <div class="features-slider">
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <img src="img/8img1.png" alt="">
+            </picture>
+          </div>
+          <h3>Knauf</h3>
+          <p>МП-75 <b>245</b> руб/меш</p>
+          <p> </p>
+          <a href="#">Сертификат</a>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <img src="img/8img2.png" alt="">
+            </picture>
+          </div>
+          <h3>Volma</h3>
+          <p>Аква слой <b>245</b> руб/меш</p>
+          <p>Гипс актив <b>245</b> руб/меш</p>
+          <a href="#">Сертификат</a>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <img src="img/8img3.png" alt="">
+            </picture>
+          </div>
+          <h3>Forman</h3>
+          <p>Аква слой <b>245</b> руб/меш</p>
+          <p>Гипс актив <b>245</b> руб/меш</p>
+          <a href="#">Сертификат</a>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <img src="img/8img4.png" alt="">
+            </picture>
+          </div>
+          <h3>Ceresit</h3>
+          <p>Аква слой <b>245</b> руб/меш</p>
+          <p>Гипс актив <b>245</b> руб/меш</p>
+          <a href="#">Сертификат</a>
+        </div>
+      </div>
+      <h6>Вы можете приобрести материалы по оптовым ценам на сайте <a href="#">gicema.ru</a> или по телефону <b>+7 495 790 69 90</b></h6>
+    </div>
+  </div>
 
+  <div class="block9">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-6 col-md-10 col-10 offset-1 offset-md-0">
+          <h1>посмотрите<br>как мы работает</h1>
+          <p>Хотите удостовериться в<br>профессионализме наших сотрудников?<br><br>Вы можете сделать это, приехав на один<br>из наших объектов, и понаблюдав за<br>ходом работ. Увидите оборудование, материалы и качество исполнения.</p>
+        </div>
+        <div class="col-xxl-4 offset-xxl-2 col-lg-4 offset-lg-2 col-md-12 offset-md-0">
+          <div class="main-form">
+            <p3>Оставьте контактные данные для связи<br><br></p3>
+              <form action="#" class="align-items-center">
+                <label>Ваше имя</label>
+                <input class="input" type="text">
+                <label>Номер телефона</label>
+                <input class="input" type="text">
+                <button type="submit">записаться на просмотр</button>
+                <p4>Подберём ближайший к вам объект</p4>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -460,6 +566,13 @@
         $('.reviews-slider').slick({
           dots: true
         });
+        $('.features-slider').slick({
+          slidesToShow: 1,
+          prevArrow: '<img class="prev" src="img/left-arrow.svg">',
+          nextArrow: '<img class="next" src="img/right-arrow.svg">',
+          slidesToScroll: 1,
+          dots: true
+        });
       }
       $('.reviews-slider').slick({
         prevArrow: '<div class="prev2"></div>',
@@ -492,16 +605,6 @@
             breakpoint: 767,
             settings: {
               slidesToShow: 2,
-              prevArrow: '<img class="prev" src="img/left-arrow.svg">',
-              nextArrow: '<img class="next" src="img/right-arrow.svg">',
-              slidesToScroll: 1,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 560,
-            settings: {
-              slidesToShow: 1,
               prevArrow: '<img class="prev" src="img/left-arrow.svg">',
               nextArrow: '<img class="next" src="img/right-arrow.svg">',
               slidesToScroll: 1,
