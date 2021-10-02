@@ -1202,3 +1202,138 @@ p4 {
     font-size: 18px;
   }
 }
+
+/* ----------------------------- 10th Block ----------------------------- */
+
+.block10 {
+  padding: 110px 0 130px;
+  background: #006B00;
+}
+.block10 h2 {
+  color: #fff;
+}
+.block10 h6 {
+  color: #fff;
+  margin: 0 0 95px 0;
+}
+.block10 img {
+  width: 255px;
+  display: block;
+  margin: 0 auto;
+}
+.block10 h5 {
+  color: #fff;
+  text-align: center;
+  font-family: bold;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.block10 button {
+  width: 130px;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .block10 button {
+    margin-bottom: 50px;
+  }
+  .block10 h6 {
+    font-size: 16px;
+  }
+}
+
+/* ----------------------------- 11th Block ----------------------------- */
+
+.block11 {
+  padding: 80px 0;
+  background: #fff url(../img/11bg.jpg) center no-repeat;
+}
+.block11 p {
+  margin: 20px 0;
+  font-size: 14px;
+}
+.block11 .main-form {
+  background-color: #fff;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .block11 {
+    background-position: left;
+    background-size: cover;
+  }
+  .block11 p {
+    font-size: 16px;
+  }
+}
+
+/* ----------------------------- Footer ----------------------------- */
+
+.footer {
+  height: 145px;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.footer .logo {
+  padding: 10% 0;
+  text-align: left;
+}
+.footer-info {
+  text-align: center;
+  padding-top: 10%;
+  line-height: 0.5;
+}
+.dev-logo {
+  padding: 7% 0;
+  text-align: right;
+}
+.dev-logo p {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.dev-logo-mobile {
+  display: none;
+}
+.dev-logo {
+  display: block;
+}
+@media (max-width: 767px) {
+  .footer img {
+    height: cover;
+    width: 100%;
+  }
+  .footer .logo {
+    padding: 25% 0;
+  }
+  .footer-info {
+    padding-top: 20%;
+  }
+  .dev-logo {
+    padding: 18% 0;
+  }
+}
+@media (max-width: 575px) {
+  .footer img {
+    height: cover;
+    width: 50%;
+  }
+  .dev-logo-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .dev-logo-mobile img {
+    padding: 15px 0;
+  }
+  .dev-logo {
+    display: none;
+  }
+  .footer .logo {
+    padding: 15px 0 0 0;
+  }
+  .footer-info {
+    padding: 10px 0 0 0;
+  }
+}
