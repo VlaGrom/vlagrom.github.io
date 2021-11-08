@@ -6,3 +6,5 @@
 [Мой первый динамический сайт](https://vlagrom.github.io/test_project_2/src/ "*клик*")
 <br>
 [Тестовый проект](https://vlagrom.github.io/test_project_3/src/ "*клик*")
+<br>
+[Тест y-k](https://vlagrom.github.io/y-k/src/index.html "*клик*")
