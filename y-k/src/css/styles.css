@@ -255,6 +255,7 @@ label {
   .header-m .info .open-contacts span {
     font-family: sb;
     font-size: 14px;
+    font-weight: 600;
     color: #000;
     position: relative;
     top: 2px;
