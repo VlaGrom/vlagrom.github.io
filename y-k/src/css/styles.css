@@ -276,6 +276,7 @@ label {
     margin: -20px 0 0 293px;
     font-size: 14px;
     font-family: sb;
+    font-weight: 600;
     color: #FCA640;
     opacity: 1;
     transition: opacity 0.3s;
