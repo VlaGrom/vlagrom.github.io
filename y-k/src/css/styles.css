@@ -35,25 +35,6 @@ body {
   font-family: rg, sans-serif;
   background-color: #F6F6F6;
 }
-button {
-  moz-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 8px;
-  color: #fff;
-  background-size: 100% 200%;
-  background-image: linear-gradient(to top, #FFC43B, #F5BA30, #FFB504, #F5AD00);
-  border: 0;
-  padding: 15px 0 12px 0;
-  width: 100%;
-  transition: all 0.2s;
-}
-button:hover {
-  background-position: 200% 100%;
-}
 h2 {
   font-family: bold;
   text-align: center;
@@ -135,7 +116,8 @@ label {
 .header .contacts {
   text-align: right;
 }
-.header .contacts a {
+.header a {
+  color: #000;
   text-decoration: none;
 }
 .header .contacts svg {
@@ -143,10 +125,177 @@ label {
   width: 25px;
   margin: 5px 0 0 4px;
 }
+.header .contacts span {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 75px;
+  padding: 2px 10px;
+  color: #fff;
+  background-color: #7287A4;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.header .contacts .mail span {
+  margin-left: 3px;
+}
+.header .contacts .tg span {
+  margin-left: -45px;
+}
+.header .contacts .viber span {
+  margin-left: -78px;
+}
+.header .contacts .wa span {
+  margin-left: -111px;
+}
+
+@media (min-width: 768px) {
+  .header .contacts .mail:hover span,.tg:hover span,.viber:hover span,.wa:hover span {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s;
+  }
+  .header .contacts span::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #7287A4 transparent;
+  }
+  .header .contacts .mail span::after {
+    left: 9%;
+  }
+  .header .contacts .tg span::after {
+    left: 40.5%;
+  }
+  .header .contacts .viber span::after {
+    left: 64.5%;
+  }
+  .header .contacts .wa span::after {
+    left: 88%;
+  }
+}
+@media (max-width: 991px) {
+  .logo img {
+    margin: 10px -15px;
+  }
+  .header h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .logo img {
+    margin: 10px auto;
+  }
+  .header h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    display: none;
+  }
+  .header-m {
+    display: block;
+  }
+  .header-m .head {
+    height: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+  }
+  .header-m .head .logo {
+    text-align: center;
+  }
+  .header-m .head img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+  }
+  .header-m .head h3 {
+    font-family: sb;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+  .header-m .info {
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+    box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.05);
+    margin-top: 15px;
+    background-color: #f3f3f3;
+    position: absolute;
+    margin-left: -280px;
+    transition: margin-left 0.3s;
+  }
+  .header-m .info2 {
+    margin-left: -20px;
+    transition: margin-left 0.3s;
+  }
+  .header-m .info .open-contacts {
+    position: absolute;
+    margin-top: -26px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .header-m .info .open-contacts svg {
+    margin: 3px 1px;
+    height: 20px;
+    width: 20px;
+  }
+  .header-m .info .open-contacts img {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px 0 22px;
+    position: relative;
+    top: 1px;
+  }
+  .header-m .info .open-contacts span {
+    font-family: sb;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    top: 2px;
+  }
+  .header-m .info .open-contacts a {
+    text-decoration: none;
+  }
+  .header-m .info .close-contacts img {
+    position: absolute;
+    margin: -20px 0 0 275px;
+    height: 15px;
+    width: 15px;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  .header-m .info .close-contacts span {
+    position: absolute;
+    margin: -20px 0 0 293px;
+    font-size: 14px;
+    font-family: sb;
+    color: #FCA640;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  .header-m .info .close-contacts2 {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .header-m .info .open-contacts2 {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+}
+@media (min-width: 576px) {
+  .header {
+    display: block;
+  }
+  .header-m {
+    display: none;
+  }
+}
 
 /* --------------------------- Main 1st Block --------------------------- */
 
-img {
-  height: 50px;
-  width: 30px;
-}
