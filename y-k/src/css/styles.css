@@ -234,6 +234,7 @@ body {
   }
   .header-m .info .close-contacts2 {
     opacity: 0;
+    display: none;
     transition: opacity 0.3s;
   }
   .header-m .info .open-contacts2 {
