@@ -59,7 +59,7 @@ body {
 }
 .header h3 {
   display: block;
-  font-family: sb;
+  font-family: sb, sans-serif;
   font-size: 22px;
   margin: 25px auto;
   text-align: left;
@@ -67,7 +67,7 @@ body {
 .header .phone {
   margin: 10px 0 0 0;
   text-align: right;
-  font-family: sb;
+  font-family: sb, sans-serif;
   font-size: 18px;
 }
 .header .phone img {
@@ -177,7 +177,7 @@ body {
     display: inline-block;
   }
   .header-m .head h3 {
-    font-family: sb;
+    font-family: sb, sans-serif;
     font-size: 16px;
     display: inline-block;
     margin-left: 4px;
@@ -220,7 +220,7 @@ body {
     bottom: 7px;
   }
   .header-m .info .open-contacts span {
-    font-family: sb;
+    font-family: sb, sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #000;
