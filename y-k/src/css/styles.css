@@ -324,6 +324,11 @@ a, .phone span, .footer a {
 .footer .contacts svg {
   margin: 15px 0 0 3px;
 }
+@media (max-width: 991px) {
+  .others img {
+    height: 77px;
+  }
+}
 @media (min-width: 768px) {
   .footer .viber-m {
     display: none;
@@ -357,6 +362,9 @@ a, .phone span, .footer a {
   }
 }
 @media (max-width: 767px) {
+  .others img {
+    height: 80px;
+  }
   .footer .viber-m {
     display: inline;
   }
