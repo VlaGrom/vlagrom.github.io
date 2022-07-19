@@ -10,3 +10,5 @@
 [Тест y-k](https://vlagrom.github.io/y-k/src/index.html "*клик*")
 <br>
 [Большая арена пряток - Maunt Massive](https://vlagrom.github.io/mount-massive/src/index.html "*клик*")
+<br>
+[Идея для ППДУ - Достижения](https://vlagrom.github.io/advancements/src/index.html "*клик*")
