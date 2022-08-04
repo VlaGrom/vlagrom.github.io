@@ -12,3 +12,5 @@
 [Большая арена пряток - Maunt Massive](https://vlagrom.github.io/mount-massive/src/index.html "*клик*")
 <br>
 [Идея для ППДУ - Достижения](https://vlagrom.github.io/advancements/src/index.html "*клик*")
+<br>
+[Украшения ручной работы «Депюе»](https://vlagrom.github.io/bijouterie-store/src/index.html "*клик*")
